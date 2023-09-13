@@ -1,0 +1,210 @@
+/* Reset some default styles */
+ @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@400;700&family=Nunito&family=Oswald:wght@500&family=Poppins:wght@500&family=Roboto+Mono:wght@600&family=Source+Code+Pro&display=swap") ;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&family=Nunito&family=Oswald:wght@500&family=Poppins:wght@500&family=Roboto+Mono:wght@600&family=Source+Code+Pro&display=swap');
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Basic styling */
+body {background-color:#4b355f;
+
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 5px;
+    padding: 10px;
+   
+} 
+
+section {
+    justify-content:space-between ;
+    display:inline-flex;
+    padding:26px;
+    
+}
+
+.leftsection{
+    padding: 6px;
+    margin: 2px;
+}
+
+
+.big{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-variant:normal;
+    text-align:left;
+    
+}
+#blue{
+    color:#7a7aeb;
+}
+
+#element{
+    color:#7a7aeb;
+    font-size: 55px;
+    font-weight: 700px ;
+}
+
+.btn{
+    height: 50px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.hire{
+     height: 50px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #63c446;
+}
+
+.man{
+   background-color:#4b355f;
+}
+
+.rightsection{
+    display:inline-flex;
+    margin: 13px;
+    padding: 10px;
+}
+
+
+
+
+.about{
+    color: #3ce460;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+h3{
+    margin: 3px;
+    padding: 1px;
+    font-style:normal;
+    font-family: 'Merriweather', serif;
+    color: #23e6a5e3
+}
+
+p{ 
+    font-style: italic;
+  font-family: 'Merriweather', sans-serif;
+  color: #e96f0df7;
+    
+    
+
+}
+
+
+
+
+
+section > div >p{
+     text-align: left;
+     padding: 10px;
+     letter-spacing:2px;
+     word-spacing:5px;
+     text-indent:5px;
+     
+    
+}
+.leftsection {
+    text-align: left;
+    
+}
+
+div>p{
+   top: 40px;
+    right: 10px;
+    position: left;
+}
+  
+
+
+
+
+
+
+header {
+    background-color:#6e0cee;
+    color: #fff;
+    padding:0px ;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 27px 0;
+}
+
+
+footer {
+    background-color: #accce1;
+    color: #de6464;
+    text-align: left;
+    margin:0px;
+    justify-content: space space-between;
+
+    .footer-left {
+    display: block ;
+    justify-content:normal;
+    align-items: left;
+    height: 10vh;
+    margin: 2px;
+    padding: 40px;
+    }
+
+    .linkedin-logo {
+    background-color: #1b0ec6c7;
+    height:48px;
+    width:38px ;
+    padding: 1px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(216 159 159 / 30%);
+         
+    }
+    .linkedin-icon {
+    font-size: 40px;
+    color: #e7eef1;
+    font-weight: bold;
+        display:block;
+    }
+
+    .info{
+     color: #1a1ce8
+    }
+
+
+
+    .footer-right{
+        text-align:right;
+        justify-content: space-between
+    
+    }
+    
+
+
+} 
+
